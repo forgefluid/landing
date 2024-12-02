@@ -9,11 +9,11 @@ export const socialLinks = [
     url: 'https://x.com/forgefluid',
     icon: 'fa:twitter',
   },
-  // {
-  //   name: 'Linkedin',
-  //   url: 'https://linkedin.com',
-  //   icon: 'fa:linkedin',
-  // },
+  {
+    name: 'Telegram',
+    url: 'https://t.me/forgefluid',
+    icon: 'fa:telegram',
+  },
   {
     name: 'GitHub',
     url: 'https://github.com/forgefluid',
