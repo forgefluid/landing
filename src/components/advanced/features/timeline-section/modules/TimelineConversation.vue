@@ -12,7 +12,7 @@
         </div>
         <span class="meta">John Doe</span>
       </div>
-      <AvatarSimple picture="data:image/gif;base64,replace_with_your_image" size="medium" />
+      <AvatarSimple picture="/assets/avatars/robot.svg" size="medium" />
     </div>
     <!--Message-->
     <div class="conversation-message">
@@ -24,7 +24,7 @@
         </div>
         <span class="meta">John Doe</span>
       </div>
-      <AvatarSimple picture="data:image/gif;base64,replace_with_your_image" size="medium" />
+      <AvatarSimple picture="/assets/avatars/robot.svg" size="medium" />
     </div>
   </div>
 </template>

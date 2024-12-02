@@ -114,7 +114,7 @@ const footerClasses = computed(() => [
                     </li>
                     <li>
                       <RouterLink
-                        :to="{ path: '/terms' }"
+                        :to="{ path: '/subpages/terms' }"
                         class="level-item footer-link"
                       >
                         Terms
@@ -122,7 +122,7 @@ const footerClasses = computed(() => [
                     </li>
                     <li>
                       <RouterLink
-                        :to="{ path: '/privacy' }"
+                        :to="{ path: '/subpages/privacy' }"
                         class="level-item footer-link"
                       >
                         Privacy

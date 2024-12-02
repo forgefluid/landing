@@ -147,23 +147,23 @@ export const team = [
 
 export const founders = [
   {
-    photo: 'data:image/gif;base64,replace_with_your_image',
-    name: 'Daniel Abikzer',
+    photo: '/assets/avatars/robot.svg',
+    name: '0xnairb',
     role: 'Co-Founder',
-    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. At ille pellit, qui permulcet sensum voluptate. Hoc non est positum in nostra actione. Primum in nostrane potestate est, quid meminerimus',
+    bio: 'With a deep passion for blockchain and AI, 0xnairb leads the technological vision of ForgeFluid. As an expert in decentralized systems and scalable architectures, they drive the innovation that powers our platform, ensuring it stays ahead of industry trends.',
   },
   {
-    photo: 'data:image/gif;base64,replace_with_your_image',
-    name: 'Hakeem Elba',
+    photo: '/assets/avatars/reaper.svg',
+    name: '?!',
     role: 'Co-Founder',
-    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. At ille pellit, qui permulcet sensum voluptate. Hoc non est positum in nostra actione. Primum in nostrane potestate est, quid meminerimus',
+    bio: 'A former tech leader turned business visionary, 0x focuses on scaling ForgeFluid and forging strategic partnerships. With a sharp understanding of market dynamics and user needs, they bridge technology and business to deliver value to developers worldwide.',
   },
-  {
-    photo: 'data:image/gif;base64,replace_with_your_image',
-    name: 'Gianni Collaro',
-    role: 'Co-Founder',
-    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. At ille pellit, qui permulcet sensum voluptate. Hoc non est positum in nostra actione. Primum in nostrane potestate est, quid meminerimus',
-  },
+  // {
+  //   photo: 'data:image/gif;base64,replace_with_your_image',
+  //   name: 'Gianni Collaro',
+  //   role: 'Co-Founder',
+  //   bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. At ille pellit, qui permulcet sensum voluptate. Hoc non est positum in nostra actione. Primum in nostrane potestate est, quid meminerimus',
+  // },
 ]
 
 export const longTeam = [
