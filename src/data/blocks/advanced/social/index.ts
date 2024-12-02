@@ -5,8 +5,8 @@ export const socialLinks = [
   //   icon: 'fa:facebook',
   // },
   {
-    name: 'Twitter',
-    url: 'https://twitter.com',
+    name: 'X',
+    url: 'https://x.com/forgefluid',
     icon: 'fa:twitter',
   },
   // {
