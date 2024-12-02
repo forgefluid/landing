@@ -27,7 +27,12 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <Hero class="illustration-hero" alignment="center" size="fullheight" color="grey">
+  <Hero
+    class="illustration-hero"
+    alignment="center"
+    size="fullheight"
+    color="grey"
+  >
     <template #body>
       <!--Hero Stacks-->
       <HeroStacks :stacks="heroStacks" />
@@ -35,30 +40,59 @@ onUnmounted(() => {
         <!--Hero Content-->
         <div class="column is-relative">
           <div class="hero-caption mx-auto max-w-8 mb-4">
-            <Title tag="h1" :size="1" weight="bold">
-              <span class="text-gradient-secondary-pseudo px-2" :class="current === 0 && gradientClass"
-                data-content="Craft.">
+            <Title
+              tag="h1"
+              :size="1"
+              weight="bold"
+            >
+              <span
+                class="text-gradient-secondary-pseudo px-2"
+                :class="current === 0 && gradientClass"
+                data-content="Craft."
+              >
                 Craft.
               </span>
-              <span class="text-gradient-primary-pseudo px-2" :class="current === 1 && gradientClass"
-                data-content="Tailor.">
+              <span
+                class="text-gradient-primary-pseudo px-2"
+                :class="current === 1 && gradientClass"
+                data-content="Tailor."
+              >
                 Tailor.
               </span>
-              <span class="text-gradient-accent-pseudo px-2" :class="current === 2 && gradientClass"
-                data-content="Deploy.">
+              <span
+                class="text-gradient-accent-pseudo px-2"
+                :class="current === 2 && gradientClass"
+                data-content="Deploy."
+              >
                 Deploy.
               </span>
             </Title>
-            <Subtitle tag="p" :size="5" weight="thin" class="mx-auto max-w-6 b-centered-tablet-p pt-2">
+            <Subtitle
+              tag="p"
+              :size="5"
+              weight="thin"
+              class="mx-auto max-w-6 b-centered-tablet-p pt-2"
+            >
               ForgeFluid empowers developers to craft smart contracts, tailor AI workflows, and deploy blockchain
               solutions in real-time."
             </Subtitle>
             <!--Buttons-->
             <div class="buttons is-relative z-1">
-              <Button color="primary" :long="2" raised bold>
+              <Button
+                color="primary"
+                :long="2"
+                raised
+                bold
+                href="https://bit.ly/forgefluid-waitlist"
+              >
                 Join Waitlist
               </Button>
-              <Button elevated bold :long="2" href="https://docs.forgefluid.com">
+              <Button
+                elevated
+                bold
+                :long="2"
+                href="https://docs.forgefluid.com"
+              >
                 Learn More
               </Button>
             </div>
@@ -67,8 +101,12 @@ onUnmounted(() => {
           <div class="hero-image-composition my-5">
             <div class="mx-auto max-w-6">
               <div class="video-player-container-wrapper">
-                <Player ratio="16by9" source="/assets/video/ff_demo_01.mp4"
-                  poster="data:image/gif;base64,replace_with_your_image" title="video title" />
+                <Player
+                  ratio="16by9"
+                  source="/assets/video/ff_demo_01.mp4"
+                  poster="/assets/illustrations/products/ff_demo_01_poster.png"
+                  title="video title"
+                />
               </div>
             </div>
           </div>
