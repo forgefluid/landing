@@ -56,12 +56,12 @@ export default {
       component: Navbar,
       props: {
         // define default props for Navbar here, you can override them using page meta
-        // items: [
-        //   {
-        //     label: 'Home',
-        //     to: '/',
-        //   },
-        // ],
+        items: [
+          {
+            label: '$FORGE',
+            to: '/forge',
+          },
+        ],
       },
     },
     footer: {
