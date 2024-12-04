@@ -19,7 +19,7 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
       <Container>
         <PageTitle
           title="Fuel Your Journey with $FORGE"
-          subtitle="What is $FORGE token"
+          subtitle="Token Introduction"
           text="$FORGE is the backbone of the ForgeFluid ecosystem, powering seamless transactions, unlocking premium features, and many more."
         />
 
