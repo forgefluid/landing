@@ -8,6 +8,7 @@
 // import { starterTemplates } from '/@src/data/pages/development'
 import { techLogos } from '/@src/data/pages/logos'
 import { socialLinks } from '/@src/data/blocks/advanced/social'
+import { conferenceSchedule } from '/@src/data/pages/conference'
 </script>
 
 <template>
@@ -108,6 +109,16 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
         </TimelineTitle>
 
         <GlobeStats />
+
+        <TimelineTitle
+          title="The Roadmap"
+          subtitle="Schedule"
+          minititle=""
+          color="primary"
+          :step="4"
+        />
+        <br>
+        <EventSchedule :schedule="conferenceSchedule" />
       </Container>
     </Section>
 
