@@ -52,7 +52,11 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
       </Container>
     </Section>
 
-    <Section color="grey">
+    <Section
+      color="grey"
+      wave="wave-1"
+      shape-color="white"
+    >
       <Container>
         <SectionTitle
           title="Compare and Choose"

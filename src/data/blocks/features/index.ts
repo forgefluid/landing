@@ -95,7 +95,7 @@ export const features2: ImageFeature[] = [
   },
   {
     title: 'Marketplace Currency',
-    text: 'Buy and sell workflows, templates, and plugins in the ForgeFluid marketplace using FORGE',
+    text: 'Buy and sell workflows, templates, and plugins in the ForgeFluid marketplace using $FORGE',
     image: '/assets/icons/colored/puzzle.svg',
     darkImage: '/assets/icons/colored/puzzle.svg',
     link: '/',

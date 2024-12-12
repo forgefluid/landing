@@ -5,9 +5,8 @@
   </route>
 
 <script setup lang="ts">
-import { founders, longTeam } from '/@src/data/blocks/advanced/team'
+import { founders } from '/@src/data/blocks/advanced/team'
 import { values } from '/@src/data/blocks/advanced/values'
-import { genericLargeGallery } from '/@src/data/blocks/gallery'
 import { socialLinks } from '/@src/data/blocks/advanced/social'
 </script>
 
@@ -33,7 +32,11 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
       </Container>
     </Section>
 
-    <Section color="grey">
+    <Section
+      color="grey"
+      wave="wave-1"
+      shape-color="white"
+    >
       <Container>
         <div class="mb-6">
           <SectionTitle
@@ -48,26 +51,6 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
         />
       </Container>
     </Section>
-
-    <!-- <Section color="grey">
-      <Container>
-        <SectionTitle
-          title="Meet the Team"
-          subtitle="Talent & Glory"
-        />
-
-        <TeamBlockC
-          :items="longTeam"
-          bubbles
-          :limit="20"
-        />
-      </Container>
-    </Section>
-
-    <GalleryBlockB
-      :items="genericLargeGallery"
-      :limit="2"
-    /> -->
 
     <FooterD
       text="ForgeFluid | Intelligent Task Automation Platform"

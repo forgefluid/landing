@@ -15,7 +15,11 @@ import { conferenceSchedule } from '/@src/data/pages/conference'
   <div>
     <HeroT1 />
 
-    <Section>
+    <Section
+      color="grey"
+      wave="wave-1"
+      shape-color="white"
+    >
       <Container>
         <TimelineTitle
           title="Crafting the beginning"
@@ -133,7 +137,7 @@ import { conferenceSchedule } from '/@src/data/pages/conference'
 
     <FooterD
       text="ForgeFluid | Intelligent Task Automation Platform"
-      color="default"
+      color="light"
       :social-links="socialLinks"
     />
   </div>
