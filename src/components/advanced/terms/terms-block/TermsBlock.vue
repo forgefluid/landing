@@ -27,7 +27,11 @@ const props = defineProps<TermsBlockProps>()
       :image-height="props.imageHeight"
     />
 
-    <Section>
+    <Section
+      color="grey"
+      wave="wave-1"
+      shape-color="white"
+    >
       <Container>
         <div class="content">
           <div class="terms-content">
