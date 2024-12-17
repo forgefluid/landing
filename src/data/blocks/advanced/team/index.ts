@@ -156,7 +156,7 @@ export const founders = [
     photo: '/assets/avatars/reaper.svg',
     name: '?!',
     role: 'Co-Founder',
-    bio: 'A former tech leader turned business visionary, 0x focuses on scaling ForgeFluid and forging strategic partnerships. With a sharp understanding of market dynamics and user needs, they bridge technology and business to deliver value to developers worldwide.',
+    bio: 'A former tech leader turned business visionary, ?! focuses on scaling ForgeFluid and forging strategic partnerships. With a sharp understanding of market dynamics and user needs, they bridge technology and business to deliver value to developers worldwide.',
   },
   // {
   //   photo: 'data:image/gif;base64,replace_with_your_image',
